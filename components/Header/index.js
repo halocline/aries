@@ -18,7 +18,7 @@ var Header = function Header() {
     pad: "small"
   }, _react["default"].createElement(_grommet.Heading, {
     level: 3
-  }, _react["default"].createElement("strong", null, "Hello World")), _react["default"].createElement(_grommet.Paragraph, null, "Hello from Aries! In order to understand how monorepo works in-action, change the Header component on aries-core and see how it immediately impacts aries-site.")));
+  }, _react["default"].createElement("strong", null, "Hello Universe")), _react["default"].createElement(_grommet.Paragraph, null, "Hello from Aries! In order to understand how monorepo works in-action, change the Header component on aries-core and see how it immediately impacts aries-site.")));
 };
 
 exports.Header = Header;
