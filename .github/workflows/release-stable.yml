@@ -17,4 +17,4 @@ jobs:
       run: echo merged
     - name: Pull request merged - run release-stable
       if: github.event.pull_request.merged == true
-      run: cd ./aries-core yarn release-stable
+      run: cd ./aries-core && yarn release-stable
